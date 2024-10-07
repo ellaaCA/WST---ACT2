@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: linear-gradient(135deg, rgb(120, 221, 135) 0%, rgb(235, 134, 196) 100%);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+p {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.interest {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 300px;
+}
+
+.interest img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #b6e497;
+}
+
+.interest.clicked {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(58, 55, 55, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
